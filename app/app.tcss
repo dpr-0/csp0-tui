@@ -1,0 +1,77 @@
+LoginScreen {
+    align: center middle;
+}
+
+#login_dialog {
+    background: $boost;
+    border: tall $background;
+    min-height: 15;
+    min-width: 60;
+    height: auto;
+    width: 0.3fr;
+}
+
+.login_description {
+    text-style: bold;
+    text-align: center;
+    margin: 2;
+}
+
+LoginInput {
+    margin: 0 5;
+}
+
+.login_fail {
+    border: tall $error-darken-3;
+}
+
+MatchScreen {
+    align: center middle;
+}
+
+#match_screen_welcome_text {
+    text-style: bold;
+    text-align: center;
+    width: 10%;
+}
+
+
+ChatScreen {
+    align: center middle;
+}
+
+#chat_middle{
+    width: 0.4fr;
+    margin-top: 2;
+    margin-bottom: 2;
+    border: tall $primary;
+    max-width: 120;
+    min-width: 50;
+    min-height: 30;
+}
+
+Thread{
+    background: $boost;
+    margin-left: 2;
+}
+
+#chat_input {
+    border: blank;
+    margin-left: 2;
+    margin-right: 2;
+    margin-top: 1;
+}
+
+MessageRow{
+    height: auto;
+}
+
+MessageStatic{
+    margin-bottom: 1;
+    max-width: 40%;
+    width: auto;
+}
+
+.right_message_row {
+    align-horizontal: right;
+}

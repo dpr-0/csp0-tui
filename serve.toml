@@ -1,0 +1,2 @@
+[app.csp0]
+command = "python -m app.app"
